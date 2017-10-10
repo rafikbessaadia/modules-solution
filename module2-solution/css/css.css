@@ -196,3 +196,44 @@ text-shadow: 6px 6px 5px black;
     width: 100%;
   }
 }
+#chicken {
+	text-align: center;
+	width: 25%;
+	margin-left: 75%;
+	font-family: Tahoma, Geneva, sans-serif;
+  font-size: 120%;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #E17D0B;
+  color: #FFFFFF;
+}
+
+#beef {
+	text-align: center;
+	width: 25%;
+	margin-left: 75%;
+	font-family: Tahoma, Geneva, sans-serif;
+  font-size: 120%;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #C67D55;
+  color: #FFFFFF;
+}
+
+#sushi {
+	text-align: center;
+	width: 25%;
+	margin-left: 75%;
+	font-family: Tahoma, Geneva, sans-serif;
+  font-size: 120%;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 0;
+  padding: 5px;
+	background-color: #E03B3B;
+  color: #FFFFFF;
+}
