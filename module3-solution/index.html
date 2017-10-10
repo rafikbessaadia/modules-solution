@@ -1,71 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Food</title>
+<!doctype html>
+<html>
+	<head lang="en">
+		<meta charset ="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">	
+        <link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
+           <title> Module 3 Solution - Our Menu</title>
+	</head>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/css.css" media="screen">    
-  </head>
-  <body>
-    <header>
-     <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed visible-xs-block" data-toggle="collapse" data-target="#nav-list" aria-expanded="false">
-            <span class="sr-only">Menu</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Food, LLC</a>
-        </div>
+	<body>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="nav-list">
-          <ul class="nav navbar-nav navbar-right visible-xs-block">
-            <li><a href="#chicken">Chicken</a></li>
-            <li><a href="#beef">Beef</a></li>
-            <li><a href="#sushi">Sushi</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-    </header>    
-    <div class="container" id='header'>
-      <h1>MENU</h1>
-    </div>
-    <div class="container" id='chicken'>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <div class="card">
-            <h3 class='card-header'>Chicken</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." </p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <div class="card" id='beef'>
-            <h3 class='card-header'>Beef</h3>
-            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est ."</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-12 col-xs-12">
-          <div class="card" id='sushi'>
-            <h3 class='card-header'>Sushi</h3>
-            <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally. " </p>
-          </div>
-        </div>                
-      </div>
-    </div>
+		<header>
+			<nav id="header-nav" class="navbar navbar-default">
+				<div class ="container">
+    				<div class="navbar-header">
+    					
+    				<a class="navbar-brand" href="#">Food, LLC</a>
+      				
+      					
+      					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+						</button>
+    				
+    				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      					<ul id ="nav-list" class="nav navbar-nav navbar-right visible-xs">
+       						<li><a href="#">Chicken</a></li>
+        					<li><a href="#">Beef</a></li>
+        					<li><a href="#">Sushi</a></li>
+        				</ul>
+        			</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  </body>
+    			
+			</nav>
+		</header>
+		
+		
+
+		<div id = "main-content" class = "container">
+			<h1 class="text-center">Our Menu</h1>
+			
+		<section class = "row">
+
+			<div class="col-xs-12"">
+			<div id="chicken" class = "menu_items" >
+			<h3>Chicken</h3>
+			<p> The moving outset transforms the crass nail. When can the alternative fiddle before a biased logic? The drill troubles the rapid pie. When can a threatening clue reach in a chicken?.</p>
+			</div>
+			</div>
+
+			<div class="col-xs-12"">
+			<div id="beef" class ="menu_items">
+			<h3>Beef</h3>
+			<p> Does the chain run the poke? The jazz celebrates a soap across the dark buffer. The earth marches outside a profit. The component misuses a finger. A cigarette highlights a percent. A condemning kiss riots inside a heresy. </p>
+			</div>
+			</div>
+
+			<div class="col-xs-12">
+			<div id="sushi" class ="menu_items">
+			<h3>Sushi</h3>
+			<p>Past the glow freezes his handbook. The receipt bucks the diary. Across the cracking jail originates the naughty groan. In my choir reverts a cruel engineer. The disposable lemon tongues the premise above the inclusive bear. The tool weights its mobile planet.</p>
+			</div>
+			</div>
+		
+		</section>
+		</div>
+		
+
+
+		<script src="js/jquery-3.2.1.min.js"> </script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	
+		<script src="js/script.js"></script>
+
+	</body>
 </html>

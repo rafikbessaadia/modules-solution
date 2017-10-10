@@ -1,33 +1,122 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  background:#505D6E url(fast-food.jpg) no-repeat center center fixed; 
+  min-height:100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 
-/** HEADER **/
-#header-nav { 
-  border-radius:0;
-  border: 0;
 }
 
-#nav-list{
-  margin-top: 10px;
+* {
+  box-sizing: border-box;
+
 }
 
-#nav-list a{
-  color: #951C49;
-  text-align: center
+
+
+
+
+#header-nav {
+  
+  border-radius: 0;
+  background-color: #5BC8AC;
 }
 
-#nav-list a:hover{
-  color: Blue;
+.navbar-default .navbar-brand {
+  padding-top: 15px;
+  font-weight: bold;
+  color: black;
+  margin-top: 0px
+  margin-bottom: 0px;
+  font-size: 2em;
+  text-shadow: 2px 2px 2px;
 }
-#header{
+
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  
+}
+
+#nav-list {
+  margin-top: 60px;
+  
+}
+
+#nav-list a {
+  color:black;
   text-align: center;
-  margin-bottom: 50px;
+  font-size: 1.5em;
+  background-color: #f29b82;
+  border: 1px solid #ef947a;
 }
-.card-header{
+
+
+#nav-list a:hover {
+  background: white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid white;
+}
+
+.menu_items {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+#chicken {
+  background-color: #598234;
+}
+
+#beef {
+  background-color: #AEBD38;
+}
+
+#sushi {
+  background-color: #68829E;
+}
+
+
+div > h3 {
   text-align: center; 
 }
 
-.card{
-  background-color: #951C49;
-  color: white;
-  padding: 10px;
-  margin-bottom: 20px;
+
+
+
+@media (min-width:992px){
+
+
+
+}
+
+
+
+@media (min-width:768px) and (max-width: 991px) {
+  
+
+}
+
+@media (max-width:767px){
+
+
+
+} 
+h3{
+  color:black;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Modak', cursive;
+
+}
+h1{
+  font-weight: bold;
+  color: black;
+
 }
